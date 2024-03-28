@@ -1,0 +1,210 @@
+    *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+  html,body {
+  height:100%;
+  width:100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+#upper{
+    /* background-color: red; */
+   
+}
+#first{
+    /*  */
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+#part{
+    padding: 20px;
+}
+#line{
+    position: absolute;
+    height: 3px;
+    width: 15px;
+    border: 2px solid black;
+    rotate: 180deg;
+    top: 8px;
+    left: 7px;
+    margin: 35px;
+}
+#nav{
+    display: flex;
+    padding: 30px;
+    gap: 50px;
+    
+}
+#second{
+    display: flex;
+    gap: 90px;
+    padding-left: 35px;
+}
+#point{
+    height: 0.11vw;
+    width: 0.11vw;
+    border: 2px solid rgb(197, 20, 20);
+    border-radius: 50%;
+    position: absolute;
+    rotate: 90deg;
+    /* color: red; */ 
+}
+#third{
+    display: flex;
+    gap: 110px;
+    padding-left: 25vw;
+    /* margin: 50px; */
+    /* align-content: center;
+    justify-content: center; */
+    padding-top: 50px;
+    
+}
+#secondpoint{
+    height: 0.11vw;
+    width: 0.11vw;
+    border: 2px solid rgb(197, 20, 20);
+    border-radius: 50%;
+   
+}
+.bold{
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+#small{
+    padding-left: 39vw;
+}
+#forth{
+    display: flex;
+    margin: 50px;
+    gap: 50vw;
+}
+#letter{
+    padding-left:25vw;
+    font-size: 3.4vw;
+    font-weight: 100;
+    /* justify-content: center;
+    align-items: center; */
+}
+#blu{
+    font-size: 3.4vw;
+    font-weight: 100;
+}
+#lower{
+    background-image: url(https://www.shutterstock.com/image-photo/photo-lovely-girl-hold-eyewear-260nw-1873753459.jpg);
+    background-size: cover;
+    background-position:center;
+}
+@media screen and (maxs-width: 600px) {
+    #upper{
+        /* background-color: red; */
+       
+    }
+    #first{
+        /*  */
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        /* padding: 15px; */
+        padding: 2.2vw;
+        padding-right: 6vw;
+    }
+    #part{
+        /* padding: 20px; */
+        padding: 0.vw;
+    }
+    #line{
+        position: absolute;
+        /* height: 3px; */
+        height: 0.5vw;
+        /* width: 15px; */
+        width: 3vw;
+        border: 2px solid black;
+        rotate: 180deg;
+        /* top: 8px; */
+        top: 1.1vw;
+        /* left: 7px; */
+        left: 2vw;
+        /* margin: 35px; */
+        margin: 5.5vw;
+    }
+    #nav{
+        display: flex;
+        /* padding: 30px; */
+        padding: 4vw;
+        /* gap: 50px; */
+        gap: 10vw;
+        
+    }
+    #second{
+        display: flex;
+        gap: 10.5vw;
+
+        padding-left: 1.5vw;
+    }
+    #point{
+        height: 0.11vw;
+        width: 0.11vw;
+        border: 2px solid rgb(197, 20, 20);
+        border-radius: 50%;
+        position: absolute;
+        rotate: 90deg;
+        /* color: red; */ 
+    }
+    #third{
+        display: flex;
+        gap: 15vw;
+        padding-left: 25vw;
+        /* margin: 50px; */
+        /* align-content: center;
+        justify-content: center; */
+        /* padding-top: 50px; */
+        padding-top: 10vw;
+        
+    }
+    #secondpoint{
+        height: 0.11vw;
+        width: 0.11vw;
+        border: 2px solid rgb(197, 20, 20);
+        border-radius: 50%;
+       
+    }
+    .bold{
+        font-size: 3vw;
+        font-weight: 600;
+    }
+    #small{
+        padding-left: 39vw;
+    }
+    #forth{
+        display: flex;
+        margin: 8vw;
+        gap: 50vw;
+    }
+    #letter{
+        padding-left:20vw;
+        font-size: 7vw;
+        font-weight: 100;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    #blu{
+        font-size: 7vw;
+        font-weight: 100;
+    }
+    #lower{
+        background-image: url(https://www.shutterstock.com/image-photo/photo-lovely-girl-hold-eyewear-260nw-1873753459.jpg);
+        background-size: cover;
+        background-position:center;
+    }
+
+}
